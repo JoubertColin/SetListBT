@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  color: var(--text-color);
+  background: var(--bg-color);
+
+  font-family: 'Roboto', sans-serif;
+}
+
+body.pink {
+  --bg-color: #FFF0F6;
+  --text-color: #1F000B;
+  --primary-color: #D6336C;
+  --primary-color-dark: #A61E4D;
+}
+
+.container {
+  width: 300px;
+  margin: 55px auto;
+
+  text-align: center;
+}
+
+/*.container2 {
+  width: 1280px;
+  margin: 1px auto;
+}*/
+
+img.avatar {
+  width: 100px;
+  height: 100px;
+  padding: 3.7px;
+
+  border: var(--primary-color) solid 4px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin-top: 24px;
+  margin-bottom: 8px;
+
+  color:  var(--primary-color-dark);
+
+  font-size: 32px;
+}
+
+.username {
+  margin-bottom: 50px;
+
+  color:  var(--primary-color);
+  opacity: 0.8;
+
+  font-size: 18px;
+  font-weight: 400;
+  font-family: 'Roboto Mono', monospace;
+  align-items: center;
+}
+
+.box {
+  float:  left;
+  /*width: unset;*/
+}
+
+ul {
+  margin: 20px 0;
+
+  list-style: none;
+}
+
+ul li a {
+  float:  none;
+  display: flex;
+
+  width:  300px;
+  height: 33px;
+  margin: 0px 20px 0px 30px;
+
+  color: white;
+  background: var(--primary-color); /* hex: 0 - F */
+  border-radius: 6px 6px 0px 0px;
+  border-color: white;
+  border-style: solid;
+  border-width: 0.1px;
+
+  font-size: 14px;
+  font-weight:  bold;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+
+  transition: background 400ms;
+}
+
+/* pseudo-class */
+ul li a:hover {
+  background: var(--primary-color-dark);
+}
+
+.a3 {
+  float:  left;
+  display: flex;
+
+  width:  150px;
+  height: 25px;
+  margin: 0px 0px 0px 30px;
+
+  color: white;
+  background: #F5A9BC;
+  border-radius: 0px 0px 0px 6px;
+  border-color: white;
+  border-style: solid;
+
+  font-size: 10px;
+  font-weight:  bold;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+
+  transition: background 400ms;
+
+
+}
+.a4 {
+  float: left;
+  display: flex;
+
+  width:  150px;
+  height: 25px;
+  margin: 0px;
+
+  color: white;
+  background: #F5A9BC;
+  border-color: white;
+  border-style: solid;
+  border-radius: 0px 0px 6px 0px;
+
+  font-size: 10px;
+  font-weight:  bold;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+
+  transition: background 400ms;
+
+}
+
+.a5 {
+  float:  none;
+  display: flex;
+
+  width:  300px;
+  height: 55px;
+  margin: 0px 20px 0px 30px;
+
+  color: white;
+  background:#F5A9BC;
+  border-radius: 6px;
+  border-color: white;
+  border-style: solid;
+  border-width: 0.1px;
+
+  font-size: 14px;
+  font-weight:  bold;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+
+  transition: background 400ms;
+}
