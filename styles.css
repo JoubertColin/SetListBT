@@ -130,7 +130,7 @@ ul li a {
   font-size: 20px;
   font-weight:  bold;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   text-transform: uppercase;
 
   transition: background 400ms;
