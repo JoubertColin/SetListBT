@@ -127,7 +127,7 @@ ul li a {
   border-color: white;
   border-style: solid;
 
-  font-size: 15px;
+  font-size: 14px;
   font-weight:  bold;
   align-items: center;
   justify-content: left;
@@ -136,6 +136,27 @@ ul li a {
   transition: background 400ms;
 }
 
+.a3v {
+  float: left;
+
+  width: 85%;
+  height: 60px;
+
+  color: white;
+  background:#4f9c93;
+  /* border-radius: 0px 0px 0px 6px; */
+  border-radius: 0px 6px 6px 0px;
+  border-color: white;
+  border-style: solid;
+
+  font-size: 14px;
+  font-weight:  bold;
+  align-items: center;
+  justify-content: left;
+  text-transform: uppercase;
+
+  transition: background 400ms;
+}
 
 .a4 {
   float: left;
