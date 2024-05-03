@@ -20,8 +20,7 @@ body {
   background-color: rgb(121, 181, 196);
   padding: 15px;
   text-align: center;
-  margin-top: -15px;
-
+  /* margin-top: -15px; */
 }
 
 #area-logo, #area-menu {
@@ -30,9 +29,9 @@ body {
 }
 
 #area-principal {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
-  padding: 15px;
+  /* padding: 15px; */
 }
 
 #area-postagens {
@@ -42,11 +41,13 @@ body {
 }
 
 #area-postagens2 {
-  width: 615px;
-  float: left;
-  margin-bottom: 5px;
-  margin-left: 300px; 
-  margin-right: 400px;
+  /* width: 615px; */
+  /* float: left; */
+  /* margin-bottom: 5px; */
+  /* margin-left: 300px; */
+  /* margin-right: 400px; */
+  width: 100%;
+  /* margin: auto; */
 }
 
 #area-lateral {
@@ -57,15 +58,17 @@ body {
 
 /* Início Páginas Aulas */
 #area-lateral2 {
-  width: 205px;
-  float: left;
-  margin-left: 160px;
+  /* width: 205px; */
+  /* float: left; */
+  /* margin-left: 160px; */
+  /* display: inline-flex; */
 }
 
 #area-lateral3 {
-  width: 205px;
-  float: left;
-  margin-left: 20px;
+  /* width: 205px; */
+  /* float: left; */
+  /* margin-left: 20px; */
+  /* display: inline-flex; */
 }
 /* Fim Páginas Aulas */
 
@@ -80,10 +83,16 @@ body {
 /* Início Páginas Aulas */
 
 .postagem2{
-  padding: 7px 20px 12px 20px;
+  /* padding: 7px 20px 12px 20px; */
   /*background:;*/
-  border-radius: 20px;
+  /* border-radius: 20px; */
   /*height: 548px;*/
+  margin: auto;
+  width: 40%;
+  min-width: 270px;
+  max-width: 550px;
+  padding: 1.5em;
+  padding-bottom: 0;
 }
 /* Fim Páginas Aulas */
 
@@ -125,9 +134,10 @@ body {
   background: #769d45;
   padding: 10px;
   margin-bottom: 20px;
-  padding-left: 22px;
+  /* padding-left: 22px; */
   border-radius: 20px;
-
+  padding: 1em;
+  text-align: center;
 }
 
 .conteudo-lateral4 {
@@ -264,16 +274,17 @@ h3 {
 }
 
 img {
-    border: 5px solid #CCC;
-    border-radius: 10px;
-    margin-top: 10px;
+    /* border: 5px solid #CCC; */
+    /* border-radius: 10px; */
+    /* margin-top: 10px; */
 }    
 
 .img1 {
   border: 7px solid #efb6cf;
   border-radius: 10px;
-  margin-top: 10px;
- /* margin-left: 5px; */
+  /* margin-top: 10px; */
+  /* margin-left: 5px; */
+  /* margin: 5em; */
 }    
 
 .img2 { 
@@ -299,7 +310,51 @@ p {
   margin-top: 15px;
 }
 
+.content-blocks {
+  width: 60%;
+  display: flex;
+  gap: 1.5em;
+  justify-content: center;
+  margin: auto;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 1.5em;
+}
 
+/*modificadores, melhor jeito de reutilizar código. Se os elementos são iguais e você só quer alterar detalhes
+use modificadores*/
+
+.laranja {
+  background: rgb(247, 168, 94);
+}
+
+/*small monitor desktop and up*/
+@media only screen and (min-width: 64em) {
+  .postagem2 {
+    width: 50%;
+  }
+
+  .content-blocks {
+    width: 85%;
+  }
+}
+
+/*tablets*/
+@media only screen and (min-width: 40em) and (max-width: 63em) {
+  .postagem2 {
+    width: 60%;
+  }
+  .content-blocks {
+    justify-content: space-evenly;
+  }
+}
+
+/*cell phones*/
+@media only screen and (max-width: 39em) {
+  .postagem2 {
+    width: 80%;
+  }
+ }
 
 
 
