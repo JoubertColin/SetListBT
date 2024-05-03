@@ -16,6 +16,7 @@ body {
 **** Layout ****
 */
 #area-cabecalho {
+  width: 115%;
   background-color: /*#ea96ba;*//*#f7b600;*/rgb(121, 181, 196);
   padding: 15px;
   text-align: center;
