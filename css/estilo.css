@@ -38,6 +38,7 @@ body {
 #area-postagens {
   width: 450px;
   float: left;
+  margin-left: 150px;
 }
 
 #area-postagens2 {
@@ -51,6 +52,7 @@ body {
 #area-lateral {
   width: 450px;
   float: right;
+  margin-left: 20px;
 }
 
 /* Início Páginas Aulas */
