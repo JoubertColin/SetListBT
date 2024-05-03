@@ -5,6 +5,7 @@
 }
 
 body {
+
   font-size: 1em;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   background: /*#e6e6e6*//*rgb(255, 227, 249);*/rgb(202, 243, 253)
@@ -16,19 +17,20 @@ body {
 **** Layout ****
 */
 #area-cabecalho {
-  background-color: /*#ea96ba;*//*#f7b600;*/rgb(121, 181, 196);
+  background-color: rgb(121, 181, 196);
   padding: 15px;
   text-align: center;
-  margin-bottom: -10px;
-  margin-right: -130px;
+  margin-top: -15px;
+
 }
 
 #area-logo, #area-menu {
   padding: 5px;
+
 }
 
 #area-principal {
-  width: 920px;
+  width: 1200px;
   margin: 0 auto;
   padding: 15px;
 }
@@ -42,8 +44,8 @@ body {
   width: 615px;
   float: left;
   margin-bottom: 5px;
-  margin-left:157px;
-  margin-right: 50px;
+  margin-left: 300px; 
+  margin-right: 400px;
 }
 
 #area-lateral {
@@ -55,7 +57,7 @@ body {
 #area-lateral2 {
   width: 205px;
   float: left;
-  margin-left: 20px;
+  margin-left: 160px;
 }
 
 #area-lateral3 {
@@ -118,7 +120,7 @@ body {
 }
 
 .conteudo-lateral3 {
-  background: #ea96ba;
+  background: #769d45;
   padding: 10px;
   margin-bottom: 20px;
   padding-left: 22px;
@@ -127,7 +129,7 @@ body {
 }
 
 .conteudo-lateral4 {
-  background:  rgb(66, 149, 187);/*rgb(121, 181, 196);*/
+  background:  rgb(247, 168, 94);/*rgb(121, 181, 196);*/
   padding: 10px;
   margin-bottom: 20px;
   padding-left: 22px;
@@ -269,7 +271,7 @@ img {
   border: 7px solid #efb6cf;
   border-radius: 10px;
   margin-top: 10px;
-  margin-left: 5px;
+ /* margin-left: 5px; */
 }    
 
 .img2 { 
@@ -281,7 +283,7 @@ img {
 .imgww {
   border: 4px solid #CCC;
   margin-top: 53px;
-  margin-left: 11px;
+/*  margin-left: 11px;*/
   border-radius: 10px;
   /*padding-top: 30px;
   padding-bottom: 30px;*/
